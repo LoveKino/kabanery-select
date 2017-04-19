@@ -1,6 +1,6 @@
 {
   "name": "kabanery-select",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "select widget for kabanery",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   "homepage": "https://github.com/LoveKino/kabanery-select#readme",
   "dependencies": {
     "bolzano": "0.0.1",
-    "kabanery": "^0.1.0"
+    "kabanery": "^0.1.8"
   }
 }
