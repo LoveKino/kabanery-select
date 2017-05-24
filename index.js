@@ -9,6 +9,23 @@ let {
 } = require('kabanery');
 
 /**
+ * @readme-quick-run
+ *
+ * ## test tar=js r_c=Select env=browser
+ *
+ * let {mount} = require('kabanery');
+ *
+ * let view = Select({
+ *   options: [['a', 'option a'], ['b', 'option b']],
+ *   selected: 'a'
+ * });
+ *
+ * mount(view, document.body);
+ *
+ * console.log(document.body.innerHTML);
+ */
+
+/**
  * {
  *
  *      options: [[name, description]],

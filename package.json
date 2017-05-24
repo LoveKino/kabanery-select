@@ -25,5 +25,8 @@
   "dependencies": {
     "bolzano": "0.0.1",
     "kabanery": "^0.2.1"
+  },
+  "devDependencies": {
+    "readme-builder": "0.0.12"
   }
 }
