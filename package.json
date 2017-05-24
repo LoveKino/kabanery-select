@@ -24,6 +24,6 @@
   "homepage": "https://github.com/LoveKino/kabanery-select#readme",
   "dependencies": {
     "bolzano": "0.0.1",
-    "kabanery": "^0.2.0"
+    "kabanery": "^0.2.1"
   }
 }
