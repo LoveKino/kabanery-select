@@ -17,7 +17,9 @@ let {
  *
  * let view = Select({
  *   options: [['a', 'option a'], ['b', 'option b']],
- *   selected: 'a'
+ *   selected: 'a',
+ *   onchange: (selectItem) => {
+ *   }
  * });
  *
  * mount(view, document.body);

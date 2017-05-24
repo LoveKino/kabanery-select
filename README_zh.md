@@ -38,7 +38,9 @@ let {mount} = require('kabanery');
 
 let view = Select({
   options: [['a', 'option a'], ['b', 'option b']],
-  selected: 'a'
+  selected: 'a',
+  onchange: (selectItem) => {
+  }
 });
 
 mount(view, document.body);
@@ -62,6 +64,7 @@ console.log(document.body.innerHTML);
 .    
 │──LICENSE    
 │──README.md    
+│──README_zh.md    
 │──index.js    
 └──package.json     
 ```
